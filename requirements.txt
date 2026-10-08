@@ -1,0 +1,13 @@
+# Runtime
+fastapi==0.142.2
+uvicorn==0.54.0
+sqlalchemy==2.1.3
+pydantic==2.13.5
+pydantic-settings==2.15.0
+email-validator==2.3.0   # required by pydantic's EmailStr
+reportlab==5.0.1
+
+# Testing
+pytest==9.1.1
+httpx2==2.13.1           # HTTP client used by FastAPI's TestClient
+pypdf==6.19.0            # used by tests to read generated PDFs
